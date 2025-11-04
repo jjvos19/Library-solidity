@@ -102,6 +102,9 @@ Se tiene un boton en cada libro para prestar/devolver el libro.
  
 ### Datos contrato
 
-| **Contrato**| **Verificacion**|
+|||
 |---|---|
-|0xd96c2589c4302cdd30fde4c4b25d6962c557b78e|[Contrat](https://sepolia.etherscan.io/address/0xd96c2589c4302cdd30fde4c4b25d6962c557b78e)|
+|**Contrato**|0xd96c2589c4302cdd30fde4c4b25d6962c557b78e|
+|**Verificación Contrato**|[Contrat](https://sepolia.etherscan.io/address/0xd96c2589c4302cdd30fde4c4b25d6962c557b78e)|
+|**Git**|[Library-solidity](https://github.com/jjvos19/Library-solidity)|
+|**Publicado**| [Library-web3](https://library-web3.vercel.app/)|
