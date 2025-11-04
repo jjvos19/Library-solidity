@@ -1,0 +1,155 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+/**********/
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+.msg-alerta{
+    color: #be37eb;
+    font-weight: bold;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-connect {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    margin-top: 15px;
+}
+.wallet-info {
+    background-color: #d4edda;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #555;
+}
+input{
+    width: 83%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border: 1px solid ;
+    border-radius: 5px;
+    box-sizeng: border-box;
+}
+
+.btn-primary{
+    background-color: #007bff;
+    color: white;
+}
+.btn-carga{
+    background-color: #be37eb;
+    color: white;
+}
+
+.btn-noprestado {
+    background-color: #0095ff;
+    color: #00ffea;
+    font-weight: bold;
+}
+
+.btn-prestado {
+    background-color: #00ffea;
+    color: #0095ff;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilo para los encabezados (th) */
+th {
+    background-color: #f2f2f2; /* Color de fondo para los encabezados */
+    color: #333; /* Color del texto de los encabezados */
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px; /* Espacio interno para el texto del encabezado */
+    text-align: left; /* Alineación del texto */
+    border: 1px solid #ddd; /* Borde para los encabezados */
+}
+
+/* Estilo para las celdas de datos (td) */
+td {
+    padding: 10px; /* Espacio interno para el texto de las celdas */
+    border: 1px solid #ddd; /* Borde para las celdas de datos */
+}
+
+/* Estilo para filas alternas para mejorar la legibilidad */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color de fondo para filas pares */
+}
+
+/* Estilo para el encabezado de la tabla (thead) */
+thead th {
+    background-color: #007bff; /* Un color diferente para el encabezado principal */
+    color: white; /* Color blanco para el texto del encabezado */
+}
+
+.title-sum {
+    background-color: #10b9fb; /* Un color diferente para el encabezado principal */
+    color: white; /* Color blanco para el texto del encabezado */
+    text-align: right;
+}
